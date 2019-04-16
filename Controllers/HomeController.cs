@@ -23,7 +23,7 @@ namespace mvcapp.Controllers
             return View();
         }
 
-        public IActionResult ajax(int? id)
+        public IActionResult Ajax(int? id)
         {
             if(id.HasValue)
                 throw new Exception("ajax exception");
